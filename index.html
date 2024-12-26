@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <a href="lectures.html">Select a Lecture</a>
+
+        <div id="quiz-section" style="display: none;">
+            <h2 id="lecture-title"></h2>
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+            <div id="question-container"></div>
+            <div>
+                <input type="number" id="question-number-input" placeholder="Enter question number">
+                <button id="go-to-question">Go</button>
+            </div>
+            <div class="navigation-buttons">
+                <button id="prev-question" style="display: none;">Previous</button>
+                <button id="next-question" style="display: none;">Next</button>
+            </div>
+            <button id="submit-answer" style="display: none;">Submit</button>
+            <button id="view-results" style="display: none;">View Results</button>
+        </div>
+
+        <div id="results-section" style="display: none;">
+            <h2>Quiz Results</h2>
+            <div id="results-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,420 @@
+[
+    {
+        "Question": "What does hardware refer to?",
+        "Options": [
+            "Programs and instructions",
+            "Physical components of a computer",
+            "Theoretical design of a system",
+            "Networking protocols"
+        ],
+        "Answer": "Physical components of a computer",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which term describes a person who writes and tests computer programs?",
+        "Options": [
+            "User",
+            "Programmer",
+            "Operator",
+            "Developer"
+        ],
+        "Answer": "Programmer",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is an algorithm?",
+        "Options": [
+            "A collection of flowcharts",
+            "A recipe-like step-by-step procedure for solving a problem",
+            "A pseudocode representation",
+            "null of the above"
+        ],
+        "Answer": "A recipe-like step-by-step procedure for solving a problem",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the first step in the program development cycle?",
+        "Options": [
+            "Design",
+            "Analyze",
+            "Code",
+            "Test and debug"
+        ],
+        "Answer": "Analyze",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does pseudocode use?",
+        "Options": [
+            "Graphical symbols to represent steps",
+            "English-like phrases with some programming terms",
+            "Mathematical expressions only",
+            "null of the above"
+        ],
+        "Answer": "English-like phrases with some programming terms",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which construct allows repetition of a set of instructions?",
+        "Options": [
+            "Sequence",
+            "Decision",
+            "Looping",
+            "Branching"
+        ],
+        "Answer": "Looping",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which operator represents 'greater than'?",
+        "Options": [
+            ">",
+            "<",
+            "=",
+            ">="
+        ],
+        "Answer": ">",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the output of dividing 10 by 5 in a pseudocode step?",
+        "Options": [
+            "5",
+            "2",
+            "10",
+            "1"
+        ],
+        "Answer": "2",
+        "CodeOption": "result = 10 / 5"
+    },
+    {
+        "Question": "What tool graphically depicts logical steps?",
+        "Options": [
+            "Hierarchy chart",
+            "Flowchart",
+            "Algorithm",
+            "Pseudocode"
+        ],
+        "Answer": "Flowchart",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which tool is favored by professional programmers for clarity and updates?",
+        "Options": [
+            "Flowcharts",
+            "Pseudocode",
+            "Hierarchy charts",
+            "Algorithms"
+        ],
+        "Answer": "Pseudocode",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is an example of an algorithm?",
+        "Options": [
+            "A recipe for cooking a meal",
+            "A hierarchy chart",
+            "A flowchart with symbols",
+            "A programming language code"
+        ],
+        "Answer": "A recipe for cooking a meal",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the purpose of testing and debugging in the program development cycle?",
+        "Options": [
+            "Writing pseudocode",
+            "Identifying and fixing errors in the program",
+            "Creating flowcharts",
+            "Designing the program logic"
+        ],
+        "Answer": "Identifying and fixing errors in the program",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which programming construct involves making decisions based on conditions?",
+        "Options": [
+            "Sequence",
+            "Decision",
+            "Looping",
+            "Branching"
+        ],
+        "Answer": "Decision",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the main purpose of a flowchart?",
+        "Options": [
+            "To depict logical steps graphically",
+            "To write pseudocode",
+            "To create program code",
+            "To debug a program"
+        ],
+        "Answer": "To depict logical steps graphically",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which symbol in a flowchart represents a process?",
+        "Options": [
+            "Rectangle",
+            "Diamond",
+            "Oval",
+            "Arrow"
+        ],
+        "Answer": "Rectangle",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does a diamond symbol in a flowchart represent?",
+        "Options": [
+            "Decision",
+            "Input",
+            "Output",
+            "Process"
+        ],
+        "Answer": "Decision",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the output of the following pseudocode? Input: Sheets = 11; Output: Stamps",
+        "Options": [
+            "3",
+            "2",
+            "11",
+            "5"
+        ],
+        "Answer": "3",
+        "CodeOption": "Input Sheets = 11; Stamps = ceil(Sheets / 5)"
+    },
+    {
+        "Question": "What is a hierarchy chart used for?",
+        "Options": [
+            "To show relationships between parts of a program",
+            "To display code execution flow",
+            "To outline the logical steps of a task",
+            "To replace flowcharts"
+        ],
+        "Answer": "To show relationships between parts of a program",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the purpose of pseudocode?",
+        "Options": [
+            "To provide a clear outline of the program logic",
+            "To compile and execute directly",
+            "To replace flowcharts in programming",
+            "To document program errors"
+        ],
+        "Answer": "To provide a clear outline of the program logic",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the result of the expression: WHILE (x <= 10) x++ ENDWHILE, where x starts at 1?",
+        "Options": [
+            "x becomes 10",
+            "x becomes 11",
+            "x becomes 9",
+            "x remains 1"
+        ],
+        "Answer": "x becomes 11",
+        "CodeOption": "int x = 1; while (x <= 10) { x++; }"
+    },
+    {
+        "Question": "What are the three primary logical programming constructs?",
+        "Options": [
+            "Sequence, Decision, Loop",
+            "Algorithm, Flowchart, Pseudocode",
+            "Input, Output, Processing",
+            "null of the above"
+        ],
+        "Answer": "Sequence, Decision, Loop",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is true about structured programming?",
+        "Options": [
+            "It forbids the use of unconditional branches like Goto",
+            "It relies heavily on flowcharts",
+            "It ignores logical constructs",
+            "It is a deprecated programming style"
+        ],
+        "Answer": "It forbids the use of unconditional branches like Goto",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the main benefit of the divide-and-conquer method?",
+        "Options": [
+            "Breaking large problems into smaller, manageable modules",
+            "Eliminating all logical errors",
+            "Replacing pseudocode with flowcharts",
+            "Automating problem-solving tasks"
+        ],
+        "Answer": "Breaking large problems into smaller, manageable modules",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the output of a pseudocode to calculate class average?",
+        "Options": [
+            "A number representing the average grade",
+            "Sum of all grades",
+            "Total count of students",
+            "null of the above"
+        ],
+        "Answer": "A number representing the average grade",
+        "CodeOption": "average = sum(grades) / count(grades)"
+    },
+    {
+        "Question": "Which logical operator checks if two values are equal?",
+        "Options": [
+            "=",
+            "==",
+            "!=",
+            ">="
+        ],
+        "Answer": "==",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the purpose of documenting a program?",
+        "Options": [
+            "To organize materials that describe the program",
+            "To replace the testing phase",
+            "To debug errors",
+            "To execute the program"
+        ],
+        "Answer": "To organize materials that describe the program",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which pseudocode construct loops until a condition is met?",
+        "Options": [
+            "WHILE",
+            "FOR",
+            "DO WHILE",
+            "IF THEN ELSE"
+        ],
+        "Answer": "DO WHILE",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the key feature of a top-down chart?",
+        "Options": [
+            "It starts from the main task and breaks it into sub-tasks",
+            "It uses only pseudocode",
+            "It focuses on testing and debugging",
+            "It represents input and output"
+        ],
+        "Answer": "It starts from the main task and breaks it into sub-tasks",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the key difference between pseudocode and flowcharts?",
+        "Options": [
+            "Pseudocode uses English-like phrases, flowcharts use symbols",
+            "Pseudocode is graphical, flowcharts are text-based",
+            "Both are used for coding directly",
+            "Pseudocode is less precise than flowcharts"
+        ],
+        "Answer": "Pseudocode uses English-like phrases, flowcharts use symbols",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the term 'input-process-output' represent in programming?",
+        "Options": [
+            "A model for problem-solving",
+            "A flowchart symbol system",
+            "A type of algorithm",
+            "null of the above"
+        ],
+        "Answer": "A model for problem-solving",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the result of applying the formula speed = distance / time, where distance = 100 and time = 4?",
+        "Options": [
+            "25",
+            "20",
+            "10",
+            "50"
+        ],
+        "Answer": "25",
+        "CodeOption": "speed = distance / time; speed = 100 / 4"
+    },
+    {
+        "Question": "Which programming construct allows choosing between multiple conditions?",
+        "Options": [
+            "Selection",
+            "Iteration",
+            "Switch-case",
+            "Loop"
+        ],
+        "Answer": "Switch-case",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the purpose of rounding up a quotient in an algorithm?",
+        "Options": [
+            "To ensure the result meets a specific threshold",
+            "To calculate averages accurately",
+            "To minimize errors in output",
+            "null of the above"
+        ],
+        "Answer": "To ensure the result meets a specific threshold",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the operator '<=' signify in pseudocode?",
+        "Options": [
+            "Less than or equal to",
+            "Greater than or equal to",
+            "Not equal to",
+            "Equal to"
+        ],
+        "Answer": "Less than or equal to",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is NOT a logical operator?",
+        "Options": [
+            ">",
+            "<",
+            "!=",
+            "=>"
+        ],
+        "Answer": "=>",
+        "CodeOption": null
+    },
+    {
+        "Question": "How many flowchart symbols are commonly used?",
+        "Options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "Answer": "5",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the formula for calculating the roots of a quadratic equation?",
+        "Options": [
+            "x = (-b ± √(b² - 4ac)) / 2a",
+            "x = (b ± √(b² + 4ac)) / 2a",
+            "x = (2a ± √(b² - 4ac)) / -b",
+            "x = (a ± b) / √(4ac)"
+        ],
+        "Answer": "x = (-b ± √(b² - 4ac)) / 2a",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which pseudocode construct repeats a block of code a specific number of times?",
+        "Options": [
+            "WHILE",
+            "DO WHILE",
+            "FOR",
+            "IF THEN"
+        ],
+        "Answer": "FOR",
+        "CodeOption": null
+    }
+]

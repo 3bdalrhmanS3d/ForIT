@@ -1,0 +1,321 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+#lecture-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#lecture-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #007BFF;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#lecture-list li:hover {
+    background: #0056b3;
+}
+
+#question-container {
+    margin: 20px 0;
+}
+
+.option {
+    padding: 10px;
+    margin: 5px 0;
+    background: #eee;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background: #ddd;
+}
+
+.correct {
+    background: #28a745 !important;
+    color: white;
+}
+
+.incorrect {
+    background: #dc3545 !important;
+    color: white;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#prev-question, #next-question {
+    flex: 1; 
+    margin: 0 10px; 
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+#prev-question:hover, #next-question:hover {
+    background-color: #0056b3;
+}
+
+#submit-answer {
+    padding: 12px 20px;
+    margin: 10px auto; 
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+button {
+    min-width: 120px; 
+    text-align: center;
+}
+#submit-answer:hover {
+    background-color: #0056b3;
+}
+/* Style for the question number display */
+#question-number {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Style for the selected option */
+.option.selected {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+/* Style for the quiz section buttons */
+#submit-answer {
+    padding: 12px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prev-question {
+    padding: 12px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+#next-question {
+    padding: 12px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.code-block {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#prev-question {
+    align-self: flex-start;
+}
+
+#next-question {
+    align-self: flex-end;
+}
+
+/* Style for the progress bar */
+#progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#progress-bar {
+    height: 20px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    width: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+#lecture-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#lecture-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #007BFF;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#lecture-list li:hover {
+    background: #0056b3;
+}
+
+#question-container {
+    margin: 20px 0;
+}
+
+.option {
+    padding: 10px;
+    margin: 5px 0;
+    background: #eee;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background: #ddd;
+}
+
+.correct {
+    background: #28a745 !important;
+    color: white;
+}
+
+.incorrect {
+    background: #dc3545 !important;
+    color: white;
+}
+
+/* Style for the quiz section buttons */
+#next-question, #prev-question, #submit-answer {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-question:hover, #prev-question:hover, #submit-answer:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the question number display */
+#question-number {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Style for the selected option */
+.option.selected {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+/* Style for code blocks */
+.code-block {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Style for navigation buttons */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#prev-question {
+    align-self: flex-start;
+}
+
+#next-question {
+    align-self: flex-end;
+}
+
+/* Style for the progress bar */
+#progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#progress-bar {
+    height: 20px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    width: 0%;
+}

@@ -1,0 +1,454 @@
+[
+    {
+        "Question": "What is the correct way to assign a floating-point value to an integer in C?",
+        "Options": [
+            "int x = 5.5;",
+            "int x = (float)5.5;",
+            "int x = 5.5f;",
+            "int x = (int)5.5;"
+        ],
+        "Answer": "int x = (int)5.5;",
+        "CodeOption": null
+    },
+    {
+        "Question": "What happens if you assign a floating-point value to an integer variable without explicit casting?",
+        "Options": [
+            "The program will cause a syntax error.",
+            "The value will be rounded.",
+            "The fractional part will be truncated.",
+            "The program will crash at runtime."
+        ],
+        "Answer": "The fractional part will be truncated.",
+        "CodeOption": null
+    },
+    {
+        "Question": "What will be the value of x after the following code is executed?",
+        "Options": [
+            "2",
+            "2.13",
+            "3",
+            "0"
+        ],
+        "Answer": "2",
+        "CodeOption": "int x = 2.13;"
+    },
+    {
+        "Question": "In the following code, what is the value of x?",
+        "Options": [
+            "3.0",
+            "3",
+            "3.00",
+            "0.0"
+        ],
+        "Answer": "3.0",
+        "CodeOption": "double x = 3;"
+    },
+    {
+        "Question": "Which of the following is NOT a valid type conversion in C?",
+        "Options": [
+            "float x = (float) 10;",
+            "int x = (int) 3.14;",
+            "char x = (char) 500;",
+            "double x = (double) 'A';"
+        ],
+        "Answer": "char x = (char) 500;",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which type is promoted in the expression int a = 5; float b = 2.5; float result = a + b;",
+        "Options": [
+            "int",
+            "float",
+            "double",
+            "char"
+        ],
+        "Answer": "float",
+        "CodeOption": null
+    },
+    {
+        "Question": "What happens when you assign a larger value to a smaller data type?",
+        "Options": [
+            "It causes an overflow.",
+            "It truncates the value.",
+            "It throws a runtime error.",
+            "It works perfectly without any issue."
+        ],
+        "Answer": "It causes an overflow.",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following type conversions will not lead to loss of precision?",
+        "Options": [
+            "int x = (float) 5.7;",
+            "double x = (int) 3.14;",
+            "char x = (int) 300;",
+            "float x = (double) 5.5;"
+        ],
+        "Answer": "double x = (int) 3.14;",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the correct way to convert a string input from argv[] to an integer?",
+        "Options": [
+            "int num = (int) argv[1];",
+            "int num = atoi(argv[1]);",
+            "int num = (string) argv[1];",
+            "int num = strtol(argv[1], NULL, 10);"
+        ],
+        "Answer": "int num = atoi(argv[1]);",
+        "CodeOption": null
+    },
+    {
+        "Question": "What happens when an integer is divided by a floating-point number in C?",
+        "Options": [
+            "The result is an integer.",
+            "The result is a float, and the integer is converted to float before the operation.",
+            "The result is an error.",
+            "The result is truncated."
+        ],
+        "Answer": "The result is a float, and the integer is converted to float before the operation.",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which format specifier would you use to print a string in C?",
+        "Options": [
+            "%s",
+            "%d",
+            "%f",
+            "%c"
+        ],
+        "Answer": "%s",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the %d format specifier do in printf()?",
+        "Options": [
+            "Prints a string.",
+            "Prints an integer as a decimal number.",
+            "Prints a floating-point number.",
+            "Prints a character."
+        ],
+        "Answer": "Prints an integer as a decimal number.",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which escape sequence is used to print a new line in printf()?",
+        "Options": [
+            "\\n",
+            "\\t",
+            "\\r",
+            "\\\\"
+        ],
+        "Answer": "\\n",
+        "CodeOption": null
+    },
+    {
+        "Question": "How would you print the value of a floating-point variable x with 2 decimal places?",
+        "Options": [
+            "printf(\"%2f\", x);",
+            "printf(\"%.2f\", x);",
+            "printf(\"%f.2\", x);",
+            "printf(\"%2.2f\", x);"
+        ],
+        "Answer": "printf(\"%.2f\", x);",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following functions is used to read a single character from the input?",
+        "Options": [
+            "scanf()",
+            "getchar()",
+            "putchar()",
+            "printf()"
+        ],
+        "Answer": "getchar()",
+        "CodeOption": null
+    },
+    {
+        "Question": "What happens if you provide an incorrect input type to scanf()?",
+        "Options": [
+            "The program crashes.",
+            "scanf() fails to store the value, and it returns the number of successfully assigned inputs.",
+            "scanf() silently ignores the incorrect input.",
+            "scanf() prompts the user for input again."
+        ],
+        "Answer": "scanf() fails to store the value, and it returns the number of successfully assigned inputs.",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is the correct syntax to read an integer using scanf()?",
+        "Options": [
+            "scanf(\"%d\", &num);",
+            "scanf(\"%s\", &num);",
+            "scanf(\"%f\", num);",
+            "scanf(\"%d\", num);"
+        ],
+        "Answer": "scanf(\"%d\", &num);",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following will correctly read a floating-point number in scanf()?",
+        "Options": [
+            "scanf(\"%d\", &x);",
+            "scanf(\"%s\", &x);",
+            "scanf(\"%f\", &x);",
+            "scanf(\"%lf\", &x);"
+        ],
+        "Answer": "scanf(\"%f\", &x);",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does scanf(\"%s\", name); do?",
+        "Options": [
+            "It reads a string including spaces.",
+            "It reads a single character.",
+            "It reads a string until the first whitespace.",
+            "It reads a string and stores it in a character array."
+        ],
+        "Answer": "It reads a string until the first whitespace.",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is correct regarding scanf() input and the use of &?",
+        "Options": [
+            "& is used to provide the address of the variable where input will be stored.",
+            "& is used to indicate a constant value.",
+            "& is used for automatic type conversion.",
+            "& is not required for reading input in scanf()."
+        ],
+        "Answer": "& is used to provide the address of the variable where input will be stored.",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does argv[0] represent in the context of argc and argv?",
+        "Options": [
+            "The first argument passed to the program.",
+            "The name of the program itself.",
+            "The total number of arguments passed to the program.",
+            "The address of the first argument."
+        ],
+        "Answer": "The name of the program itself.",
+        "CodeOption": null
+    },
+    {
+        "Question": "How would you access the second command-line argument passed to the program?",
+        "Options": [
+            "argv[0]",
+            "argv[1]",
+            "argv[2]",
+            "argc[1]"
+        ],
+        "Answer": "argv[2]",
+        "CodeOption": null
+    },
+    {
+        "Question": "If a program is run as test.exe arg1 arg2 arg3, what will be stored in argv[1]?",
+        "Options": [
+            "test.exe",
+            "arg1",
+            "arg2",
+            "arg3"
+        ],
+        "Answer": "arg1",
+        "CodeOption": null
+    },
+    {
+        "Question": "What would argc contain if a program is run with the command test.exe hello world?",
+        "Options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "Answer": "3",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which function is used to convert a string argument from argv[] to an integer?",
+        "Options": [
+            "atoi()",
+            "itoa()",
+            "strtol()",
+            "convert()"
+        ],
+        "Answer": "atoi()",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the getchar() function do?",
+        "Options": [
+            "Reads a single character from the keyboard input.",
+            "Prints a character to the screen.",
+            "Reads an entire string from the input.",
+            "Reads a number from the input."
+        ],
+        "Answer": "Reads a single character from the keyboard input.",
+        "CodeOption": null
+    },
+    {
+        "Question": "What happens if you enter multiple characters with getchar()?",
+        "Options": [
+            "Only the first character is read.",
+            "All characters are read at once.",
+            "The program crashes.",
+            "It waits for you to press Enter."
+        ],
+        "Answer": "Only the first character is read.",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does putchar(c) do?",
+        "Options": [
+            "Reads a character from the input and stores it in c.",
+            "Prints the character stored in c to the screen.",
+            "Reads a string from the user.",
+            "Prints a number to the screen."
+        ],
+        "Answer": "Prints the character stored in c to the screen.",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the correct way to print the character 'A' using putchar()?",
+        "Options": [
+            "putchar('A');",
+            "putchar(A);",
+            "printf('A');",
+            "printf(A);"
+        ],
+        "Answer": "putchar('A');",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following statements about variable declarations is true?",
+        "Options": [
+            "Variables can only be declared at the beginning of the program.",
+            "Variables can be declared at any point in the program, before use.",
+            "Variable declarations must always be at the end of the program.",
+            "Declarations are not necessary in C."
+        ],
+        "Answer": "Variables can be declared at any point in the program, before use.",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which statement correctly assigns a value to a variable in C?",
+        "Options": [
+            "int x; x = 10;",
+            "x = 10; int x;",
+            "10 = x;",
+            "int x = 10;"
+        ],
+        "Answer": "int x; x = 10;",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the correct way to end a statement in C?",
+        "Options": [
+            "With a period (.)",
+            "With a comma (,)",
+            "With a semicolon (;)",
+            "With a colon (:)"
+        ],
+        "Answer": "With a semicolon (;)",
+        "CodeOption": null
+    },
+    {
+        "Question": "In a C program, what do comments begin with?",
+        "Options": [
+            "/*",
+            "//",
+            "##",
+            "## or /*"
+        ],
+        "Answer": "//",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is NOT a valid C identifier?",
+        "Options": [
+            "myVariable",
+            "_myVariable",
+            "my variable",
+            "myVariable123"
+        ],
+        "Answer": "my variable",
+        "CodeOption": null
+    },
+    {
+        "Question": "What happens if a program doesn't include a return 0; statement at the end of the main() function?",
+        "Options": [
+            "The program will crash.",
+            "The program will return a non-zero value, indicating an error.",
+            "The program will return zero by default.",
+            "The program will not compile."
+        ],
+        "Answer": "The program will return zero by default.",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is true about semicolons in C?",
+        "Options": [
+            "A semicolon marks the end of a function.",
+            "A semicolon is used to separate multiple declarations.",
+            "A semicolon marks the end of executable statements.",
+            "A semicolon is not required to end a statement."
+        ],
+        "Answer": "A semicolon marks the end of executable statements.",
+        "CodeOption": null
+    },
+    {
+        "Question": "How do you declare a variable in C?",
+        "Options": [
+            "variable_name = value;",
+            "variable_name: value;",
+            "type variable_name = value;",
+            "variable_name (value);"
+        ],
+        "Answer": "type variable_name = value;",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is the correct way to print a string using printf()?",
+        "Options": [
+            "printf(\"%d\", \"Hello\");",
+            "printf(\"%s\", \"Hello\");",
+            "printf(\"%f\", \"Hello\");",
+            "printf(\"%c\", \"Hello\");"
+        ],
+        "Answer": "printf(\"%s\", \"Hello\");",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following functions is used to read a string from the user?",
+        "Options": [
+            "scanf()",
+            "getchar()",
+            "putchar()",
+            "printf()"
+        ],
+        "Answer": "scanf()",
+        "CodeOption": null
+    },
+    {
+        "Question": "What happens when a string is passed to a program through argv[]?",
+        "Options": [
+            "It is automatically converted to an integer.",
+            "It is stored as a sequence of characters in argv[].",
+            "It is stored as a pointer.",
+            "It cannot be passed through argv[]."
+        ],
+        "Answer": "It is stored as a sequence of characters in argv[].",
+        "CodeOption": null
+    },
+    {
+        "Question": "Null",
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Answer": "Null",
+        "CodeOption": null
+    }
+
+]
