@@ -5,17 +5,23 @@ This project is an interactive quiz interface designed using HTML, CSS, and Java
 ## Project Structure
 
 ### HTML Files
+
 - **index.html**: The main page that displays the quiz, allows users to navigate between questions, and view results.
+
 - **lectures.html**: The lecture selection page where users can choose the lecture they want to take the quiz on.
 
 ### CSS Files
+
 - **style.css**: The CSS file containing styles used to format the pages.
 
 ### JavaScript Files
+
 - **script.js**: The JavaScript file containing the logic for displaying questions, handling answers, and showing results.
+
 - **lectures.js**: The JavaScript file containing the logic for loading and displaying lectures on the lecture selection page.
 
 ### JSON Files
+
 - **data/Lec5_6.json**: Contains the questions and answers data for lecture 5 and 6.
 - **data/Lec7_8.json**: Contains the questions and answers data for lecture 7 and 8.
 - **data/Lec9_10_11.json**: Contains the questions and answers data for lecture 9, 10, and 11.
