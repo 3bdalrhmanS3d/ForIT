@@ -84,7 +84,7 @@
             "char x = (int) 300;",
             "float x = (double) 5.5;"
         ],
-        "Answer": "double x = (int) 3.14;",
+        "Answer": "float x = (double) 5.5;",
         "CodeOption": null
     },
     {
