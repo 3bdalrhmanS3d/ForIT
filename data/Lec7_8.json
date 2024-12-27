@@ -800,7 +800,7 @@
             "Compilation Error"
         ],
         "Answer": "543  ",
-        "CodeOption": "int i = 5;\n    do {\n        printf(\"%d\", i--);\n    } while (i > 3);"
+        "CodeOption": "int i = 5;\n    do {\n        printf(\"%d\", i--);\n    } while (i >= 3);"
     },
     {
         "Question": "What is the output of the following code?",
