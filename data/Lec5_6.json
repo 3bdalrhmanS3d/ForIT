@@ -1,4 +1,114 @@
 [
+        {
+            "Question": "What is the primary goal of the program development cycle?",
+            "Options": [
+                "To write code efficiently",
+                "To solve a problem systematically",
+                "To minimize debugging time",
+                "To design flowcharts"
+            ],
+            "Answer": "To solve a problem systematically",
+            "CodeOption": null
+        },
+        {
+            "Question": "What is the first step in the program development cycle?",
+            "Options": [
+                "Design",
+                "Test and Debug",
+                "Analyze",
+                "Document"
+            ],
+            "Answer": "Analyze",
+            "CodeOption": null
+        },
+        {
+            "Question": "What does pseudocode primarily represent?",
+            "Options": [
+                "Visual diagrams of code logic",
+                "English-like descriptions of algorithms",
+                "Compiled programming language",
+                "Machine code instructions"
+            ],
+            "Answer": "English-like descriptions of algorithms",
+            "CodeOption": null
+        },
+        {
+            "Question": "What is the purpose of a flowchart?",
+            "Options": [
+                "To execute algorithms",
+                "To graphically depict logical steps in a process",
+                "To replace code writing",
+                "To debug programs"
+            ],
+            "Answer": "To graphically depict logical steps in a process",
+            "CodeOption": null
+        },
+        {
+            "Question": "What is the primary output of an algorithm?",
+            "Options": [
+                "Compiled code",
+                "A logical flowchart",
+                "A step-by-step solution to a problem",
+                "Debugged results"
+            ],
+            "Answer": "A step-by-step solution to a problem",
+            "CodeOption": null
+        },
+        {
+            "Question": "Which of the following best describes an algorithm?",
+            "Options": [
+                "A program's main function",
+                "A sequence of steps to solve a problem",
+                "A compiled machine code",
+                "A hierarchy chart"
+            ],
+            "Answer": "A sequence of steps to solve a problem",
+            "CodeOption": null
+        },
+        {
+            "Question": "What is the primary purpose of debugging?",
+            "Options": [
+                "To add features to a program",
+                "To optimize performance",
+                "To locate and fix errors",
+                "To analyze program design"
+            ],
+            "Answer": "To locate and fix errors",
+            "CodeOption": null
+        },
+        {
+            "Question": "Which tool represents the relationship between different parts of a program?",
+            "Options": [
+                "Pseudocode",
+                "Flowchart",
+                "Hierarchy Chart",
+                "Algorithm"
+            ],
+            "Answer": "Hierarchy Chart",
+            "CodeOption": null
+        },
+        {
+            "Question": "What is a common advantage of pseudocode over flowcharts?",
+            "Options": [
+                "Easier to write and update",
+                "Graphical representation of logic",
+                "Clarity in complex scenarios",
+                "Language independence"
+            ],
+            "Answer": "Easier to write and update",
+            "CodeOption": null
+        },
+        {
+            "Question": "What is the main drawback of flowcharts?",
+            "Options": [
+                "Lack of graphical elements",
+                "Limited educational value",
+                "Time-consuming to write and update",
+                "Incompatibility with algorithms"
+            ],
+            "Answer": "Time-consuming to write and update",
+            "CodeOption": null
+        },
     {
         "Question": "What does hardware refer to?",
         "Options": [
@@ -63,6 +173,193 @@
             "Branching"
         ],
         "Answer": "Looping",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which construct represents an unconditional branch in programming?",
+        "Options": [
+            "Loop",
+            "Decision",
+            "Goto statement",
+            "Sequence"
+        ],
+        "Answer": "Goto statement",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which loop guarantees at least one execution of the body?",
+        "Options": [
+            "While loop",
+            "For loop",
+            "Do-While loop",
+            "Infinite loop"
+        ],
+        "Answer": "Do-While loop",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which structure is used for executing different paths based on conditions?",
+        "Options": [
+            "Sequence",
+            "Decision",
+            "Loop",
+            "Algorithm"
+        ],
+        "Answer": "Decision",
+        "CodeOption": null
+    },
+    {
+        "Question": "What symbol represents a decision in a flowchart?",
+        "Options": [
+            "Rectangle",
+            "Diamond",
+            "Circle",
+            "Triangle"
+        ],
+        "Answer": "Diamond",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the starting point of a flowchart?",
+        "Options": [
+            "Input symbol",
+            "Output symbol",
+            "Start/End symbol",
+            "Decision symbol"
+        ],
+        "Answer": "Start/End symbol",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which operator determines if two values are not equal?",
+        "Options": [
+            ">",
+            "!=",
+            "<=",
+            "="
+        ],
+        "Answer": "!=",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the correct output of the algorithm: 'Speed = Distance / Time'?",
+        "Options": [
+            "Speed in meters",
+            "Distance in hours",
+            "Speed in miles/hour",
+            "Time in seconds"
+        ],
+        "Answer": "Speed in miles/hour",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the term 'HIPO' stand for?",
+        "Options": [
+            "Hierarchy Input-Process-Output",
+            "High-Intensity Programming Operations",
+            "Hierarchy Program-Output",
+            "Input-Output Programming"
+        ],
+        "Answer": "Hierarchy Input-Process-Output",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the first step in solving any problem?",
+        "Options": [
+            "Debug the solution",
+            "Determine inputs and outputs",
+            "Code the solution",
+            "Test the algorithm"
+        ],
+        "Answer": "Determine inputs and outputs",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the output of the pseudocode: 'FOR month = 1 TO 12 PRINT month'?",
+        "Options": [
+            "12",
+            "1-12",
+            "123456789101112",
+            "1"
+        ],
+        "Answer": "123456789101112",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the purpose of the 'Divide-and-Conquer' method?",
+        "Options": [
+            "To handle complex programming constructs",
+            "To break problems into smaller, manageable parts",
+            "To create visual flowcharts",
+            "To optimize pseudocode writing"
+        ],
+        "Answer": "To break problems into smaller, manageable parts",
+        "CodeOption": null
+    },
+    {
+        "Question": "In problem-solving, what follows after analyzing a problem?",
+        "Options": [
+            "Coding the solution",
+            "Designing the algorithm",
+            "Debugging errors",
+            "Documenting the process"
+        ],
+        "Answer": "Designing the algorithm",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which flowchart symbol denotes a process?",
+        "Options": [
+            "Diamond",
+            "Rectangle",
+            "Oval",
+            "Parallelogram"
+        ],
+        "Answer": "Rectangle",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the condition in a decision block determine?",
+        "Options": [
+            "Process flow",
+            "Input requirements",
+            "True or False output",
+            "Loop exit"
+        ],
+        "Answer": "True or False output",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the output for the flowchart determining odd/even numbers?",
+        "Options": [
+            "Only Even numbers",
+            "Either Odd or Even based on input",
+            "Multiples of input",
+            "Only Odd numbers"
+        ],
+        "Answer": "Either Odd or Even based on input",
+        "CodeOption": null
+    },
+    {
+        "Question": "What type of variable stores logical results?",
+        "Options": [
+            "Integer",
+            "Float",
+            "Boolean",
+            "String"
+        ],
+        "Answer": "Boolean",
+        "CodeOption": null
+    },
+    {
+        "Question": "In pseudocode, what term indicates repetitive actions?",
+        "Options": [
+            "Loop",
+            "Condition",
+            "Branch",
+            "Decision"
+        ],
+        "Answer": "Loop",
         "CodeOption": null
     },
     {

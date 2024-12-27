@@ -440,15 +440,443 @@
         "CodeOption": null
     },
     {
-        "Question": "Null",
+        "Question": "What is the output of the following code?",
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "A  ",
+            "B  ",
+            "Compilation Error  ",
+            "Runtime Error"
         ],
-        "Answer": "Null",
-        "CodeOption": null
+        "Answer": "A  ",
+        "CodeOption": "int x = 5;\n   if (x > 3)\n       printf(\"A\");\n   else\n       printf(\"B\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "True  ",
+            "False  ",
+            "Compilation Error  ",
+            "Runtime Error"
+        ],
+        "Answer": "False  ",
+        "CodeOption": "int x = 0;\n   if (x)\n       printf(\"True\");\n   else\n       printf(\"False\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "2  ",
+            "3  ",
+            "None  ",
+            "Compilation Error"
+        ],
+        "Answer": "3  ",
+        "CodeOption": "int x = 3;\n   if (x == 2)\n       printf(\"2\");\n   else if (x == 3)\n       printf(\"3\");\n   else\n       printf(\"None\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "Yes  ",
+            "No  ",
+            "Compilation Error  ",
+            "Runtime Error"
+        ],
+        "Answer": "No  ",
+        "CodeOption": "int x = 1, y = 0;\n   if (x && y)\n       printf(\"Yes\");\n   else\n       printf(\"No\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "Five  ",
+            "TenDefault  ",
+            "Default  ",
+            "Compilation Error"
+        ],
+        "Answer": "TenDefault  ",
+        "CodeOption": "int x = 10;\n   switch (x) {\n       case 5: printf(\"Five\");\n       case 10: printf(\"Ten\");\n       default: printf(\"Default\");\n   }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "A  ",
+            "B  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "B  ",
+        "CodeOption": "int x = 0;\n   if (x == 0) if (x == 1) printf(\"A\"); else printf(\"B\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "Zero  ",
+            "Non-zero  ",
+            "Compilation Error  ",
+            "Runtime Error"
+        ],
+        "Answer": "Non-zero  ",
+        "CodeOption": "int x = -1;\n   if (x)\n       printf(\"Non-zero\");\n   else\n       printf(\"Zero\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "True  ",
+            "False  ",
+            "Compilation Error  ",
+            "Runtime Error"
+        ],
+        "Answer": "True  ",
+        "CodeOption": "int x = 4, y = 2;\n   if (x > 5 || y < 3)\n       printf(\"True\");\n   else\n       printf(\"False\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "One  ",
+            "TwoThreeDefault  ",
+            "Three  ",
+            "Compilation Error"
+        ],
+        "Answer": "TwoThreeDefault  ",
+        "CodeOption": "int x = 2;\n   switch (x) {\n       case 1: printf(\"One\");\n       case 2: printf(\"Two\");\n       case 3: printf(\"Three\");\n       default: printf(\"Default\");\n   }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "Equal  ",
+            "Not Equal  ",
+            "Compilation Error  ",
+            "Runtime Error"
+        ],
+        "Answer": "Equal  ",
+        "CodeOption": "int x = 10, y = 5;\n    if (x = y)\n        printf(\"Equal\");\n    else\n        printf(\"Not Equal\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "012  ",
+            "123  ",
+            "01  ",
+            "Compilation Error"
+        ],
+        "Answer": "012  ",
+        "CodeOption": "int i;\n    for (i = 0; i < 3; i++)\n        printf(\"%d\", i);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "54321  ",
+            "12345  ",
+            "Infinite Loop  ",
+            "Compilation Error"
+        ],
+        "Answer": "54321  ",
+        "CodeOption": "int i = 5;\n    while (i > 0) {\n        printf(\"%d\", i);\n        i--;\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "123  ",
+            "321  ",
+            "12  ",
+            "Compilation Error"
+        ],
+        "Answer": "123  ",
+        "CodeOption": "int i = 1;\n    do {\n        printf(\"%d\", i);\n        i++;\n    } while (i <= 3);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "012  ",
+            "123  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "012  ",
+        "CodeOption": "int i = 0;\n    for (; i < 3; i++)\n        printf(\"%d\", i);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "123  ",
+            "012  ",
+            "1234  ",
+            "Compilation Error"
+        ],
+        "Answer": "123  ",
+        "CodeOption": "int i = 0;\n    while (i++ < 3)\n        printf(\"%d\", i);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "012  ",
+            "123  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "012  ",
+        "CodeOption": "for (int i = 0; i < 3; printf(\"%d\", i), i++);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "123  ",
+            "0123  ",
+            "1  ",
+            "Compilation Error"
+        ],
+        "Answer": "123  ",
+        "CodeOption": "int i = 1;\n    while (i < 4) {\n        printf(\"%d\", i);\n        i++;\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "01234  ",
+            "0134  ",
+            "2345  ",
+            "Compilation Error"
+        ],
+        "Answer": "0134  ",
+        "CodeOption": "for (int i = 0; i < 5; i++) {\n        if (i == 2)\n            continue;\n        printf(\"%d\", i);\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "54321  ",
+            "543210  ",
+            "Infinite Loop  ",
+            "Compilation Error"
+        ],
+        "Answer": "54321  ",
+        "CodeOption": "int i = 5;\n    do {\n        printf(\"%d\", i);\n        i--;\n    } while (i > 0);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "012  ",
+            "01234  ",
+            "Infinite Loop  ",
+            "Compilation Error"
+        ],
+        "Answer": "012  ",
+        "CodeOption": "for (int i = 0; i < 5; i++) {\n        if (i == 3)\n            break;\n        printf(\"%d\", i);\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "Yes  ",
+            "No  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "Yes  ",
+        "CodeOption": "int x = 7, y = 0;\n    if (x || y)\n        printf(\"Yes\");\n    else\n        printf(\"No\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "A  ",
+            "B  ",
+            "C  ",
+            "Compilation Error"
+        ],
+        "Answer": "B  ",
+        "CodeOption": "int x = 1;\n    if (x > 2)\n        printf(\"A\");\n    else if (x == 1)\n        printf(\"B\");\n    else\n        printf(\"C\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "One  ",
+            "Two  ",
+            "Three  ",
+            "ThreeTwoOne"
+        ],
+        "Answer": "Three  ",
+        "CodeOption": "int x = 3;\n    switch (x) {\n        case 1: printf(\"One\");\n        case 2: printf(\"Two\");\n        case 3: printf(\"Three\");\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "HelloWorld  ",
+            "WorldHello  ",
+            "Hello  ",
+            "Compilation Error"
+        ],
+        "Answer": "HelloWorld  ",
+        "CodeOption": "int x = 3;\n    if (x < 4)\n        printf(\"Hello\");\n    if (x == 3)\n        printf(\"World\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "Default  ",
+            "Ten  ",
+            "DefaultTen  ",
+            "Compilation Error"
+        ],
+        "Answer": "DefaultTen  ",
+        "CodeOption": "int x = 10;\n    switch (x) {\n        default: printf(\"Default\");\n        case 10: printf(\"Ten\");\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "Default  ",
+            "OneDefault  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "Default  ",
+        "CodeOption": "int x = 2;\n    switch (x) {\n        case 1: printf(\"One\");\n        default: printf(\"Default\");\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "Positive  ",
+            "Negative  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "Positive  ",
+        "CodeOption": "int x = 5;\n    if (x < 0)\n        printf(\"Negative\");\n    else\n        printf(\"Positive\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "True  ",
+            "False  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "True  ",
+        "CodeOption": "int x = 2, y = 1;\n    if (x > y && y > 0)\n        printf(\"True\");\n    else\n        printf(\"False\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "2  ",
+            "4  ",
+            "None  ",
+            "Compilation Error"
+        ],
+        "Answer": "None  ",
+        "CodeOption": "int x = 3;\n    if (x == 2)\n        printf(\"2\");\n    else if (x == 4)\n        printf(\"4\");\n    else\n        printf(\"None\");"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "Zero  ",
+            "ZeroOne  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "ZeroOne  ",
+        "CodeOption": "int x = 0;\n    switch (x) {\n        case 0: printf(\"Zero\");\n        case 1: printf(\"One\");\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "123  ",
+            "321  ",
+            "12  ",
+            "Compilation Error"
+        ],
+        "Answer": "123  ",
+        "CodeOption": "for (int i = 1; i <= 3; i++)\n        printf(\"%d\", i);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "012  ",
+            "123  ",
+            "01  ",
+            "Compilation Error"
+        ],
+        "Answer": "012  ",
+        "CodeOption": "int i = 0;\n    while (i < 3) {\n        printf(\"%d\", i);\n        i++;\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "543  ",
+            "5432  ",
+            "Infinite Loop  ",
+            "Compilation Error"
+        ],
+        "Answer": "543  ",
+        "CodeOption": "int i = 5;\n    do {\n        printf(\"%d\", i--);\n    } while (i > 3);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "01  ",
+            "012  ",
+            "Infinite Loop  ",
+            "Compilation Error"
+        ],
+        "Answer": "01  ",
+        "CodeOption": "for (int i = 0; i < 3; i++)\n        if (i == 2)\n            break;\n        else\n            printf(\"%d\", i);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "1245  ",
+            "12345  ",
+            "Infinite Loop  ",
+            "Compilation Error"
+        ],
+        "Answer": "1245  ",
+        "CodeOption": "int i = 0;\n    while (i < 5) {\n        i++;\n        if (i == 3)\n            continue;\n        printf(\"%d\", i);\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "23  ",
+            "123  ",
+            "012  ",
+            "Compilation Error"
+        ],
+        "Answer": "23  ",
+        "CodeOption": "int i = 1;\n    while (i++ < 3)\n        printf(\"%d\", i);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "012  ",
+            "123  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "012  ",
+        "CodeOption": "int i = 0;\n    for (; i < 3;) {\n        printf(\"%d\", i);\n        i++;\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "012  ",
+            "123  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "012  ",
+        "CodeOption": "for (int i = 0; i < 3; i++)\n        printf(\"%d\", i);"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "0134  ",
+            "01234  ",
+            "Infinite Loop  ",
+            "Compilation Error"
+        ],
+        "Answer": "0134  ",
+        "CodeOption": "for (int i = 0; i < 5; i++) {\n        if (i == 2)\n            continue;\n        printf(\"%d\", i);\n    }"
+    },
+    {
+        "Question": "What is the output of the following code?",
+        "Options": [
+            "012  ",
+            "123  ",
+            "Compilation Error  ",
+            "None of the above"
+        ],
+        "Answer": "012  ",
+        "CodeOption": "for (int i = 0; i < 3; printf(\"%d\", i), i++);"
     }
-
 ]

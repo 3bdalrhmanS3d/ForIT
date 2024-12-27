@@ -1,0 +1,552 @@
+[
+    {
+        "Question": "What is the primary purpose of a client-server network on the Internet?",
+        "Options": [
+            "To store data locally on the client",
+            "To allow a client to request and receive data from a server",
+            "To enable direct communication between two clients",
+            "To secure data using encryption protocols"
+        ],
+        "Answer": "To allow a client to request and receive data from a server",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which protocol is commonly used to ensure secure communication over the web?",
+        "Options": [
+            "HTTP",
+            "FTP",
+            "SSL/TLS",
+            "DNS"
+        ],
+        "Answer": "SSL/TLS",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a unique IP address used for?",
+        "Options": [
+            "To assign a name to a website",
+            "To locate and identify a device on a network",
+            "To encrypt web traffic",
+            "To host multiple websites on a server"
+        ],
+        "Answer": "To locate and identify a device on a network",
+        "CodeOption": null
+    },
+    {
+        "Question": "What type of hacker is known for ethical hacking and improving security?",
+        "Options": [
+            "Black-hat hacker",
+            "Grey-hat hacker",
+            "White-hat hacker",
+            "Script kiddie"
+        ],
+        "Answer": "White-hat hacker",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which e-commerce model involves transactions between consumers?",
+        "Options": [
+            "B2C",
+            "B2B",
+            "C2C",
+            "M-commerce"
+        ],
+        "Answer": "C2C",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a primary function of a firewall?",
+        "Options": [
+            "To detect viruses",
+            "To filter network traffic",
+            "To back up data",
+            "To encrypt files"
+        ],
+        "Answer": "To filter network traffic",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which type of virus replicates itself without human intervention?",
+        "Options": [
+            "Boot-sector virus",
+            "Worm",
+            "Logic bomb",
+            "Email virus"
+        ],
+        "Answer": "Worm",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the function of a URL in web navigation?",
+        "Options": [
+            "To encrypt data transmissions",
+            "To serve as an address for web resources",
+            "To define browser settings",
+            "To host a website"
+        ],
+        "Answer": "To serve as an address for web resources",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which strategy helps avoid phishing attacks?",
+        "Options": [
+            "Replying to suspicious emails",
+            "Using public computers for transactions",
+            "Never clicking on unknown links",
+            "Storing passwords in browsers"
+        ],
+        "Answer": "Never clicking on unknown links",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a distinguishing feature of digital convergence?",
+        "Options": [
+            "Using analog signals",
+            "Combining multiple digital functions in one device",
+            "Separating media and internet functions",
+            "Relying solely on desktop computers"
+        ],
+        "Answer": "Combining multiple digital functions in one device",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which type of backup includes only changes since the last backup?",
+        "Options": [
+            "Full backup",
+            "Incremental backup",
+            "Image backup",
+            "Differential backup"
+        ],
+        "Answer": "Incremental backup",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which is NOT a component of a strong password?",
+        "Options": [
+            "Lowercase letters",
+            "Reused sequences",
+            "Symbols",
+            "Uppercase letters"
+        ],
+        "Answer": "Reused sequences",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the role of metadata in search engines?",
+        "Options": [
+            "To encrypt web traffic",
+            "To provide summaries for indexing",
+            "To manage cookies",
+            "To block spam"
+        ],
+        "Answer": "To provide summaries for indexing",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which browser feature helps maintain user privacy?",
+        "Options": [
+            "Tabbed browsing",
+            "Private browsing",
+            "Bookmarks",
+            "Extensions"
+        ],
+        "Answer": "Private browsing",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the term \"deepfake\" refer to?",
+        "Options": [
+            "Encrypted files",
+            "AI-manipulated media content",
+            "E-commerce transactions",
+            "Search engine optimization"
+        ],
+        "Answer": "AI-manipulated media content",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a key feature of cloud computing?",
+        "Options": [
+            "Storing files only on local devices",
+            "Accessing files from any internet-connected device",
+            "Requiring specialized hardware",
+            "Providing only email services"
+        ],
+        "Answer": "Accessing files from any internet-connected device",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which type of e-commerce involves business-to-business transactions?",
+        "Options": [
+            "C2C",
+            "B2B",
+            "B2C",
+            "M-commerce"
+        ],
+        "Answer": "B2B",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does a search engine spider do?",
+        "Options": [
+            "Indexes data from web pages",
+            "Blocks malicious websites",
+            "Encrypts web traffic",
+            "Manages cookies"
+        ],
+        "Answer": "Indexes data from web pages",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is an advantage of a VPN?",
+        "Options": [
+            "Faster browsing speeds",
+            "Secure and private web access",
+            "Free access to premium websites",
+            "Automated backups"
+        ],
+        "Answer": "Secure and private web access",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which method can protect against identity theft online?",
+        "Options": [
+            "Using simple passwords",
+            "Avoiding HTTPS websites",
+            "Regularly monitoring bank statements",
+            "Sharing passwords with trusted friends"
+        ],
+        "Answer": "Regularly monitoring bank statements",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the purpose of a domain name system (DNS)?",
+        "Options": [
+            "To store web pages",
+            "To translate domain names into IP addresses",
+            "To encrypt web traffic",
+            "To manage browser cookies"
+        ],
+        "Answer": "To translate domain names into IP addresses",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does a packet analyzer (sniffer) do?",
+        "Options": [
+            "Blocks unwanted emails",
+            "Intercepts and logs network traffic",
+            "Encrypts web traffic",
+            "Filters spam messages"
+        ],
+        "Answer": "Intercepts and logs network traffic",
+        "CodeOption": null
+    },
+    {
+        "Question": "What type of virus encrypts files and demands payment for unlocking them?",
+        "Options": [
+            "Boot-sector virus",
+            "Ransomware",
+            "Logic bomb",
+            "Trojan horse"
+        ],
+        "Answer": "Ransomware",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is an example of social engineering?",
+        "Options": [
+            "Installing antivirus software",
+            "Phishing emails",
+            "Encrypting files",
+            "Updating operating systems"
+        ],
+        "Answer": "Phishing emails",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the main function of an SSL certificate?",
+        "Options": [
+            "To speed up website loading times",
+            "To secure communication between browsers and servers",
+            "To store user passwords securely",
+            "To monitor internet usage"
+        ],
+        "Answer": "To secure communication between browsers and servers",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of these tools is used to refine web search results?",
+        "Options": [
+            "Boolean operators",
+            "HTML editors",
+            "Firewall filters",
+            "URL shorteners"
+        ],
+        "Answer": "Boolean operators",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a breadcrumb trail used for on websites?",
+        "Options": [
+            "To encrypt user data",
+            "To help users navigate back to previous pages",
+            "To display recent updates",
+            "To manage user cookies"
+        ],
+        "Answer": "To help users navigate back to previous pages",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a distinguishing feature of encryption viruses?",
+        "Options": [
+            "They spread via email attachments",
+            "They hold files hostage until a ransom is paid",
+            "They target only operating system files",
+            "They execute on specific dates"
+        ],
+        "Answer": "They hold files hostage until a ransom is paid",
+        "CodeOption": null
+    },
+    {
+        "Question": "What type of tool is used for video conferencing?",
+        "Options": [
+            "Email clients",
+            "Google Meet",
+            "Firewall software",
+            "DNS servers"
+        ],
+        "Answer": "Google Meet",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the purpose of a biometric authentication device?",
+        "Options": [
+            "To encrypt files",
+            "To use physical traits for authentication",
+            "To manage browser cookies",
+            "To compress multimedia files"
+        ],
+        "Answer": "To use physical traits for authentication",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the difference between HTTP and HTTPS?",
+        "Options": [
+            "HTTP encrypts data while HTTPS does not",
+            "HTTPS uses encryption for secure communication",
+            "HTTP is used for secure websites",
+            "There is no difference"
+        ],
+        "Answer": "HTTPS uses encryption for secure communication",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the main purpose of a firewall?",
+        "Options": [
+            "To optimize network speed",
+            "To block unauthorized access",
+            "To create backups",
+            "To monitor email traffic"
+        ],
+        "Answer": "To block unauthorized access",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which technology is commonly used for cloud storage?",
+        "Options": [
+            "USB drives",
+            "Google Drive",
+            "Local hard disks",
+            "BIOS systems"
+        ],
+        "Answer": "Google Drive",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does VoIP stand for?",
+        "Options": [
+            "Voice over Internet Protocol",
+            "Virtual online Internet Protection",
+            "Video over Internet Programming",
+            "Voice on International Platform"
+        ],
+        "Answer": "Voice over Internet Protocol",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the function of a MAC address?",
+        "Options": [
+            "To identify a device on a network",
+            "To store files in the cloud",
+            "To encrypt sensitive data",
+            "To monitor browser history"
+        ],
+        "Answer": "To identify a device on a network",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which tool is used to detect and remove malware?",
+        "Options": [
+            "Firewall",
+            "Antivirus software",
+            "DNS server",
+            "URL shortener"
+        ],
+        "Answer": "Antivirus software",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a botnet?",
+        "Options": [
+            "A group of infected computers controlled remotely",
+            "A program that encrypts sensitive data",
+            "A tool for securing networks",
+            "An advanced firewall system"
+        ],
+        "Answer": "A group of infected computers controlled remotely",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is an example of a biometric security method?",
+        "Options": [
+            "Password authentication",
+            "Fingerprint scanner",
+            "Firewall configuration",
+            "Antivirus software"
+        ],
+        "Answer": "Fingerprint scanner",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the role of a phishing filter in a web browser?",
+        "Options": [
+            "To block advertisements",
+            "To prevent malicious websites from stealing user information",
+            "To enhance browser speed",
+            "To track user activity"
+        ],
+        "Answer": "To prevent malicious websites from stealing user information",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the term 'cloud computing' imply?",
+        "Options": [
+            "Storing data locally",
+            "Accessing services and storage over the internet",
+            "Creating local backups",
+            "Encrypting files on personal computers"
+        ],
+        "Answer": "Accessing services and storage over the internet",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following is an example of social engineering?",
+        "Options": [
+            "Phishing emails",
+            "Antivirus installation",
+            "Hardware upgrades",
+            "File encryption"
+        ],
+        "Answer": "Phishing emails",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which file type is commonly used for web images?",
+        "Options": [
+            "JPEG",
+            "PDF",
+            "DOCX",
+            "EXE"
+        ],
+        "Answer": "JPEG",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a common feature of web-based email services?",
+        "Options": [
+            "Require desktop applications",
+            "Allow access from any internet-connected device",
+            "Encrypt all outgoing messages",
+            "Limit inbox storage to 100MB"
+        ],
+        "Answer": "Allow access from any internet-connected device",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a worm in terms of computer security?",
+        "Options": [
+            "A type of malware that spreads without user interaction",
+            "An antivirus tool",
+            "A spam filter",
+            "A hardware device"
+        ],
+        "Answer": "A type of malware that spreads without user interaction",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of these technologies is used for two-factor authentication?",
+        "Options": [
+            "Firewall software",
+            "SMS verification",
+            "Email spam filters",
+            "Browser cookies"
+        ],
+        "Answer": "SMS verification",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the primary function of a VPN?",
+        "Options": [
+            "Increase internet speed",
+            "Secure and anonymize online traffic",
+            "Store files remotely",
+            "Block malware"
+        ],
+        "Answer": "Secure and anonymize online traffic",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the term 'URL' stand for?",
+        "Options": [
+            "Universal Resource Locator",
+            "Unified Resource Link",
+            "Uniform Resource Locator",
+            "Unified Request Locator"
+        ],
+        "Answer": "Uniform Resource Locator",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the role of encryption in cybersecurity?",
+        "Options": [
+            "To enhance computer speed",
+            "To protect data by converting it into unreadable formats",
+            "To prevent hardware damage",
+            "To manage cookies"
+        ],
+        "Answer": "To protect data by converting it into unreadable formats",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which of the following represents a top-level domain (TLD)?",
+        "Options": [
+            ".com",
+            "www",
+            "https",
+            ".html"
+        ],
+        "Answer": ".com",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the purpose of an operating system?",
+        "Options": [
+            "To manage hardware and software resources",
+            "To provide antivirus protection",
+            "To compress multimedia files",
+            "To encrypt online traffic"
+        ],
+        "Answer": "To manage hardware and software resources",
+        "CodeOption": null
+    }
+]

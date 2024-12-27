@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const lectures = {
         "Lec5_6": "data/Lec5_6.json",
-        "Lec7_8": "data/Lec7_8.json"
+        "Lec7_8": "data/Lec7_8.json",
+        "Lec9_10_11": "data/Lec9_10_11.json"
     };
 
     const quizSection = document.getElementById("quiz-section");
@@ -60,23 +61,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (selectedOption.textContent === questions[currentQuestionIndex].Answer) {
                 selectedOption.classList.add("correct");
+                document.querySelectorAll(".option").forEach(option => {
+                    option.classList.add("disabled");
+                });
+                setTimeout(() => {
+                    if (currentQuestionIndex < questions.length - 1) {
+                        nextButton.style.display = "block";
+                    } else {
+                        alert("Quiz Completed!");
+                        quizSection.style.display = "none";
+                        viewResultsButton.style.display = "block";
+                    }
+                }, 2000);
             } else {
                 selectedOption.classList.add("incorrect");
+                setTimeout(() => {
+                    selectedOption.classList.remove("incorrect", "selected");
+                    document.querySelectorAll(".option").forEach(option => {
+                        option.classList.remove("disabled");
+                    });
+                }, 2000);
             }
-
-            document.querySelectorAll(".option").forEach(option => {
-                option.classList.add("disabled");
-            });
-
-            setTimeout(() => {
-                if (currentQuestionIndex < questions.length - 1) {
-                    nextButton.style.display = "block";
-                } else {
-                    alert("Quiz Completed!");
-                    quizSection.style.display = "none";
-                    viewResultsButton.style.display = "block";
-                }
-            }, 2000);
         };
 
         nextButton.onclick = () => {

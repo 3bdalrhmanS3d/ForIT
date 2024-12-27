@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const lectures = {
         "Lec5_6": "data/Lec5_6.json",
-        "Lec7_8": "data/Lec7_8.json"
+        "Lec7_8": "data/Lec7_8.json", 
+        "Lec9_10_11": "data/Lec9_10_11.json"
     };
 
     const lectureList = document.getElementById("lectures");
