@@ -5,12 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Select a Lecture</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #whatsapp-group {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #whatsapp-group button {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #whatsapp-group button:hover {
+            background-color: #1EBEA5;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
         <div id="lecture-list">
             <h2>Select a Lecture</h2>
             <ul id="lectures"></ul>
+        </div>
+        <div id="whatsapp-group">
+            <button onclick="window.location.href='https://chat.whatsapp.com/DpXAXowhzIqACwd2USVka0'">Join our WhatsApp Group</button>
         </div>
     </div>
     <script src="lectures.js"></script>
