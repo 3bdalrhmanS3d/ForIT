@@ -711,7 +711,7 @@
             "DefaultTen  ",
             "Compilation Error"
         ],
-        "Answer": "DefaultTen  ",
+        "Answer": "Ten  ",
         "CodeOption": "int x = 10;\n    switch (x) {\n        default: printf(\"Default\");\n        case 10: printf(\"Ten\");\n    }"
     },
     {
