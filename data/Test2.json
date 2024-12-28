@@ -1,0 +1,213 @@
+[
+    {
+        "Question": "Which protocol ensures secure communication over the internet?",
+        "Options": [
+            "HTTP",
+            "FTP",
+            "HTTPS"
+        ],
+        "Answer": "HTTPS",
+        "CodeOption": null
+        },
+        {
+        "Question": "What does ARPANET stand for?",
+        "Options": [
+            "Advanced Research Projects Agency Network",
+            "Advanced Resource Protocol and Access Network",
+            "Automated Resource Planning and Networking"
+        ],
+        "Answer": "Advanced Research Projects Agency Network",
+        "CodeOption": null
+        },
+        {
+        "Question": "What is the primary function of a search engine spider?",
+        "Options": [
+            "Crawl and index websites",
+            "Create website content",
+            "Generate backlinks"
+        ],
+        "Answer": "Crawl and index websites",
+        "CodeOption": null
+        },
+        {
+        "Question": "What is the main difference between C and C++?",
+        "Options": [
+            "C++ supports object-oriented programming",
+            "C++ is faster than C",
+            "C supports only procedural programming"
+        ],
+        "Answer": "C++ supports object-oriented programming",
+        "CodeOption": null
+        },
+        {
+        "Question": "Which data type is used for single-precision floating-point numbers in C?",
+        "Options": [
+            "float",
+            "double",
+            "int"
+        ],
+        "Answer": "float",
+        "CodeOption": null
+        },
+        {
+        "Question": "What type of malware encrypts files and demands payment to unlock them?",
+        "Options": [
+            "Ransomware",
+            "Spyware",
+            "Adware"
+        ],
+        "Answer": "Ransomware",
+        "CodeOption": null
+        },
+        {
+        "Question": "Which symbol starts a comment in C programming?",
+        "Options": [
+            "//",
+            "/* */",
+            "#"
+        ],
+        "Answer": "//",
+        "CodeOption": null
+        },
+        {
+        "Question": "What is the output of the following code snippet in C?\n```c\nint x = 5;\nprintf(\"%d\", x);\n```",
+        "Options": [
+            "5",
+            "x",
+            "Error"
+        ],
+        "Answer": "5",
+        "CodeOption": "```c\nint x = 5;\nprintf(\"%d\", x);\n```"
+        },
+        {
+        "Question": "What is the role of a firewall?",
+        "Options": [
+            "Block unauthorized access",
+            "Encrypt data",
+            "Provide cloud storage"
+        ],
+        "Answer": "Block unauthorized access",
+        "CodeOption": null
+        },
+        {
+        "Question": "Which keyword is used to define a constant in C?",
+        "Options": [
+            "define",
+            "const",
+            "static"
+        ],
+        "Answer": "const",
+        "CodeOption": null
+        },
+    
+        {
+            "Question": "What is an IP address used for?",
+            "Options": [
+                "Identifying computers on a network",
+                "Encrypting internet traffic",
+                "Backing up files"
+            ],
+            "Answer": "Identifying computers on a network",
+            "CodeOption": null
+        },
+        {
+            "Question": "Which loop in C executes at least once regardless of the condition?",
+            "Options": [
+                "while",
+                "do-while",
+                "for"
+            ],
+            "Answer": "do-while",
+            "CodeOption": null
+        },
+        {
+            "Question": "What is the main purpose of pseudocode?",
+            "Options": [
+                "Write executable code",
+                "Plan and outline algorithms",
+                "Debug programs"
+            ],
+            "Answer": "Plan and outline algorithms",
+            "CodeOption": null
+        },
+        {
+            "Question": "What is the primary advantage of cloud computing?",
+            "Options": [
+                "Offline data processing",
+                "Remote access to data",
+                "Faster local storage"
+            ],
+            "Answer": "Remote access to data",
+            "CodeOption": null
+        },
+        {
+            "Question": "Which HTML element is used for hyperlinks?",
+            "Options": [
+                "<a>",
+                "<link>",
+                "<href>"
+            ],
+            "Answer": "<a>",
+            "CodeOption": null
+        },
+        {
+            "Question": "Which command is used to compile a C program?",
+            "Options": [
+                "gcc",
+                "run",
+                "execute"
+            ],
+            "Answer": "gcc",
+            "CodeOption": null
+        },
+        {
+            "Question": "What does ASCII stand for?",
+            "Options": [
+                "American Standard Code for Information Interchange",
+                "Advanced Systematic Code for Information Integration",
+                "Automated Symbol Coding Information Index"
+            ],
+            "Answer": "American Standard Code for Information Interchange",
+            "CodeOption": null
+        },
+        {
+            "Question": "Which of the following is not a valid C variable name?",
+            "Options": [
+                "_variable1",
+                "1variable",
+                "variable_1"
+            ],
+            "Answer": "1variable",
+            "CodeOption": null
+        },
+        {
+            "Question": "Which operator is used to compare two values in C?",
+            "Options": [
+                "==",
+                "=",
+                "!="
+            ],
+            "Answer": "==",
+            "CodeOption": null
+        },
+        {
+            "Question": "Which layer of the OSI model is responsible for encryption?",
+            "Options": [
+                "Application layer",
+                "Presentation layer",
+                "Network layer"
+            ],
+            "Answer": "Presentation layer",
+            "CodeOption": null
+        },
+        {
+            "Question": "What is a flowchart primarily used for?",
+            "Options": [
+                "Debugging code",
+                "Visualizing program logic",
+                "Writing pseudocode"
+            ],
+            "Answer": "Visualizing program logic",
+            "CodeOption": null
+        }
+]

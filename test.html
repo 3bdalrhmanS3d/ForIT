@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="test-selection">
+        <h2>Select a Test</h2>
+        <ul id="test-list">
+            <li><button class="test-option" data-test="Test1">Test 1</button></li>
+            <li><button class="test-option" data-test="Test2">Test 2</button></li>
+            <li><button class="test-option" data-test="Test3">Test 3</button></li>
+        </ul>
+        <button id="go-to-lectures">Go to Lectures Page</button>
+    </div>
+
+    <div id="test-app" style="display: none;">
+        <h2>Quiz Time!</h2>
+
+        <div id="quiz-container"></div>
+        <div id="controls">
+            <button id="start-test">Start Test</button>
+            <button id="next-question" style="display: none;">Next Question</button>
+            <button id="finish-test" style="display: none;">Finish Test</button>
+        </div>
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="results-container" style="display: none;">
+            <h3>Test Results</h3>
+            <p id="score"></p>
+            <p id="wrong-answers"></p>
+            <p id="time-taken"></p>
+        </div>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>

@@ -17,3 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         lectureList.appendChild(li);
     }
 });
+const testButton = document.getElementById("test-button-container");
+testButton.addEventListener("click", () => {
+    window.location.href = "test.html";
+});

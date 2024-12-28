@@ -6,12 +6,12 @@
     <title>Select a Lecture</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        #whatsapp-group {
+        #whatsapp-group, #linkedin-profile {
             margin-top: 20px;
             text-align: center;
         }
 
-        #whatsapp-group button {
+        #whatsapp-group button, #linkedin-profile button {
             background-color: #25D366;
             color: white;
             border: none;
@@ -24,6 +24,14 @@
         #whatsapp-group button:hover {
             background-color: #1EBEA5;
         }
+
+        #linkedin-profile button {
+            background-color: #0077B5;
+        }
+
+        #linkedin-profile button:hover {
+            background-color: #005582;
+        }
     </style>
 </head>
 <body>
@@ -32,8 +40,17 @@
             <h2>Select a Lecture</h2>
             <ul id="lectures"></ul>
         </div>
+        
+        <div id="test-button-container">
+            <button onclick="window.location.href='test.html'">Take a Test</button>
+        </div>
+        
         <div id="whatsapp-group">
             <button onclick="window.location.href='https://chat.whatsapp.com/DpXAXowhzIqACwd2USVka0'">Join our WhatsApp Group</button>
+        </div>
+
+        <div id="linkedin-profile">
+            <button onclick="window.location.href='http://linkedin.com/in/abdulrhmansaad27/'">Visit My LinkedIn</button>
         </div>
     </div>
     <script src="lectures.js"></script>

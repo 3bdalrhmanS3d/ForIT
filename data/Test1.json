@@ -1,0 +1,293 @@
+[
+    {
+        "Question": "What is the purpose of the 'return' statement in C?",
+        "Options": [
+            "End a loop",
+            "Exit a function",
+            "Define a variable"
+        ],
+        "Answer": "Exit a function",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which tool is commonly used for version control?",
+        "Options": [
+            "Git",
+            "Docker",
+            "Jenkins"
+        ],
+        "Answer": "Git",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the purpose of a URL?",
+        "Options": [
+            "Locate resources on the web",
+            "Encrypt web traffic",
+            "Host websites"
+        ],
+        "Answer": "Locate resources on the web",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which method is effective in avoiding phishing scams?",
+        "Options": [
+            "Avoid clicking on suspicious links",
+            "Using weak passwords",
+            "Ignoring browser warnings"
+        ],
+        "Answer": "Avoid clicking on suspicious links",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the purpose of the 'continue' statement in loops?",
+        "Options": [
+            "Exit the loop completely",
+            "Skip the current iteration and continue with the next",
+            "Terminate the program"
+        ],
+        "Answer": "Skip the current iteration and continue with the next",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a 'trojan horse' in cybersecurity?",
+        "Options": [
+            "A program disguised as legitimate software",
+            "A virus that replicates itself",
+            "A tool for password management"
+        ],
+        "Answer": "A program disguised as legitimate software",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does 'void' mean in a C function declaration?",
+        "Options": [
+            "The function returns no value",
+            "The function takes no parameters",
+            "The function is recursive"
+        ],
+        "Answer": "The function returns no value",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which operator is used to access members of a structure in C?",
+        "Options": [
+            ".",
+            "->",
+            "&"
+        ],
+        "Answer": ".",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which network topology is characterized by a central connection point?",
+        "Options": [
+            "Star",
+            "Bus",
+            "Ring"
+        ],
+        "Answer": "Star",
+        "CodeOption": null
+    },
+
+    {
+        "Question": "Which component of a computer is responsible for executing instructions?",
+        "Options": [
+            "CPU",
+            "RAM",
+            "Hard Drive"
+        ],
+        "Answer": "CPU",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does 'https' signify in a web address?",
+        "Options": [
+            "A secure connection",
+            "A high-speed server",
+            "A public website"
+        ],
+        "Answer": "A secure connection",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which command is used to create a directory in Linux?",
+        "Options": [
+            "mkdir",
+            "cd",
+            "touch"
+        ],
+        "Answer": "mkdir",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the primary purpose of an algorithm?",
+        "Options": [
+            "Define the flow of a program",
+            "Execute a program",
+            "Store data"
+        ],
+        "Answer": "Define the flow of a program",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the default return type of the 'main' function in C?",
+        "Options": [
+            "int",
+            "void",
+            "float"
+        ],
+        "Answer": "int",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which term describes a network of networks?",
+        "Options": [
+            "Internet",
+            "Intranet",
+            "LAN"
+        ],
+        "Answer": "Internet",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which device connects multiple networks together?",
+        "Options": [
+            "Router",
+            "Switch",
+            "Hub"
+        ],
+        "Answer": "Router",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does 'float' represent in C programming?",
+        "Options": [
+            "Single-precision floating-point number",
+            "Double-precision floating-point number",
+            "Character variable"
+        ],
+        "Answer": "Single-precision floating-point number",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which type of loop is best suited for a fixed number of iterations?",
+        "Options": [
+            "for",
+            "while",
+            "do-while"
+        ],
+        "Answer": "for",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the function of DNS in networking?",
+        "Options": [
+            "Translate domain names to IP addresses",
+            "Encrypt network traffic",
+            "Store user credentials"
+        ],
+        "Answer": "Translate domain names to IP addresses",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the main purpose of a flowchart?",
+        "Options": [
+            "Visualize the steps of a process",
+            "Write executable code",
+            "Store program variables"
+        ],
+        "Answer": "Visualize the steps of a process",
+        "CodeOption": null
+    },
+    {
+        "Question": "What type of software is used to manage hardware and software resources?",
+        "Options": [
+            "Operating System",
+            "Antivirus",
+            "Driver"
+        ],
+        "Answer": "Operating System",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which operator is used to access pointers in C?",
+        "Options": [
+            "*",
+            "&",
+            "->"
+        ],
+        "Answer": "*",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the acronym 'IoT' stand for?",
+        "Options": [
+            "Internet of Things",
+            "Input/Output Technology",
+            "Information on Transmission"
+        ],
+        "Answer": "Internet of Things",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which type of loop evaluates the condition after executing the loop body?",
+        "Options": [
+            "do-while",
+            "while",
+            "for"
+        ],
+        "Answer": "do-while",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the term 'open-source software' mean?",
+        "Options": [
+            "The source code is freely available",
+            "The software is free to use",
+            "The software is developed by a single organization"
+        ],
+        "Answer": "The source code is freely available",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the output of the following code snippet?\n```c\nint x = 5;\nint y = 10;\nprintf(\"%d\", x * y);\n```",
+        "Options": [
+            "50",
+            "15",
+            "5"
+        ],
+        "Answer": "50",
+        "CodeOption": "```c\nint x = 5;\nint y = 10;\nprintf(\"%d\", x * y);\n```"
+    },
+    {
+        "Question": "What does the 'sizeof' operator return in C?",
+        "Options": [
+            "The size of a data type in bytes",
+            "The total memory allocated for a program",
+            "The size of an array"
+        ],
+        "Answer": "The size of a data type in bytes",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which keyword is used to define a constant variable in C?",
+        "Options": [
+            "const",
+            "define",
+            "static"
+        ],
+        "Answer": "const",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the function of the 'getchar()' function in C?",
+        "Options": [
+            "Read a single character from input",
+            "Print a character to the console",
+            "Read a string from input"
+        ],
+        "Answer": "Read a single character from input",
+        "CodeOption": null
+    }
+]    

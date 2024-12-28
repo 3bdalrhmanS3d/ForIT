@@ -1,0 +1,203 @@
+[
+    {
+        "Question": "What does DNS stand for?",
+        "Options": [
+            "Domain Name System",
+            "Digital Network Service",
+            "Dynamic Name System"
+        ],
+        "Answer": "Domain Name System",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the role of the 'main()' function in a C program?",
+        "Options": [
+            "Define global variables",
+            "Execute the program",
+            "Debug the code"
+        ],
+        "Answer": "Execute the program",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the output of this code snippet?\n```c\nint x = 3, y = 4;\nprintf(\"%d\", x + y);\n```",
+        "Options": [
+            "34",
+            "7",
+            "12"
+        ],
+        "Answer": "7",
+        "CodeOption": "```c\nint x = 3, y = 4;\nprintf(\"%d\", x + y);\n```"
+    },
+    {
+        "Question": "Which part of a URL specifies the resource?",
+        "Options": [
+            "Protocol",
+            "Domain name",
+            "Path"
+        ],
+        "Answer": "Path",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which data structure uses LIFO (Last In, First Out)?",
+        "Options": [
+            "Queue",
+            "Stack",
+            "Array"
+        ],
+        "Answer": "Stack",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which command is used to view files in a Linux directory?",
+        "Options": [
+            "ls",
+            "cd",
+            "mkdir"
+        ],
+        "Answer": "ls",
+        "CodeOption": null
+    },
+
+    {
+        "Question": "What is the purpose of the 'break' statement in C?",
+        "Options": [
+            "Terminate a loop or switch case",
+            "Pause the program execution",
+            "Skip to the next iteration"
+        ],
+        "Answer": "Terminate a loop or switch case",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which programming construct allows repeated execution of a block of code?",
+        "Options": [
+            "Selection",
+            "Looping",
+            "Branching"
+        ],
+        "Answer": "Looping",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does a relational operator do in programming?",
+        "Options": [
+            "Performs arithmetic operations",
+            "Compares values",
+            "Assigns values to variables"
+        ],
+        "Answer": "Compares values",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which protocol is used for email retrieval?",
+        "Options": [
+            "IMAP",
+            "SMTP",
+            "FTP"
+        ],
+        "Answer": "IMAP",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a 'botnet'?",
+        "Options": [
+            "A group of servers hosting websites",
+            "A collection of compromised computers",
+            "A security tool for scanning networks"
+        ],
+        "Answer": "A collection of compromised computers",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the result of the following code?\n```c\nint x = 10;\nif (x > 5)\n    printf(\"Hello\");\nelse\n    printf(\"Goodbye\");\n```",
+        "Options": [
+            "Hello",
+            "Goodbye",
+            "Error"
+        ],
+        "Answer": "Hello",
+        "CodeOption": "```c\nint x = 10;\nif (x > 5)\n    printf(\"Hello\");\nelse\n    printf(\"Goodbye\");\n```"
+    },
+    {
+        "Question": "Which data type is best suited for storing a large decimal number?",
+        "Options": [
+            "float",
+            "double",
+            "int"
+        ],
+        "Answer": "double",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the term for software designed to harm or exploit systems?",
+        "Options": [
+            "Malware",
+            "Firewall",
+            "Antivirus"
+        ],
+        "Answer": "Malware",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the output of this C code?\n```c\nint x = 7;\nprintf(\"%d\", x % 2);\n```",
+        "Options": [
+            "1",
+            "0",
+            "7"
+        ],
+        "Answer": "1",
+        "CodeOption": "```c\nint x = 7;\nprintf(\"%d\", x % 2);\n```"
+    },
+    {
+        "Question": "What is the function of an IDE (Integrated Development Environment)?",
+        "Options": [
+            "Compiling and running programs",
+            "Managing operating systems",
+            "Hosting web applications"
+        ],
+        "Answer": "Compiling and running programs",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is a logical operator in C?",
+        "Options": [
+            "An operator used for conditional logic (e.g., &&, ||)",
+            "An operator used for arithmetic operations",
+            "An operator for memory management"
+        ],
+        "Answer": "An operator used for conditional logic (e.g., &&, ||)",
+        "CodeOption": null
+    },
+    {
+        "Question": "Which cybersecurity measure can detect unauthorized access attempts?",
+        "Options": [
+            "Antivirus",
+            "Firewall",
+            "Password encryption"
+        ],
+        "Answer": "Firewall",
+        "CodeOption": null
+    },
+    {
+        "Question": "What does the 'scanf' function do in C?",
+        "Options": [
+            "Prints output to the console",
+            "Reads input from the user",
+            "Allocates memory"
+        ],
+        "Answer": "Reads input from the user",
+        "CodeOption": null
+    },
+    {
+        "Question": "What is the primary function of the ALU in a CPU?",
+        "Options": [
+            "Store data",
+            "Perform arithmetic and logic operations",
+            "Control input and output devices"
+        ],
+        "Answer": "Perform arithmetic and logic operations",
+        "CodeOption": null
+    }
+]

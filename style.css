@@ -37,7 +37,43 @@ h2 {
     background: #0056b3;
 }
 
-#question-container {
+#test-selection {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#test-list {
+    list-style: none;
+    padding: 0;
+}
+
+#test-list li {
+    margin: 15px 0;
+}
+
+#test-list button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#test-list button:hover {
+    background-color: #0056b3;
+}
+
+#test-app, #results-container {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#quiz-container {
     margin: 20px 0;
 }
 
@@ -53,6 +89,11 @@ h2 {
     background: #ddd;
 }
 
+.option.selected {
+    background-color: #f0ad4e;
+    color: white;
+}
+
 .correct {
     background: #28a745 !important;
     color: white;
@@ -63,50 +104,39 @@ h2 {
     color: white;
 }
 
-.navigation-buttons {
+#controls {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-#prev-question, #next-question, #submit-answer {
-    padding: 12px 20px;
-    margin: 10px;
+button {
+    padding: 10px 20px;
+    border: none;
     background-color: #007BFF;
     color: white;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center;
-    font-size: 16px;
 }
 
-#prev-question:hover, #next-question:hover, #submit-answer:hover {
+button:hover {
     background-color: #0056b3;
 }
 
-button {
-    min-width: 120px;
-    text-align: center;
-}
-
-#question-number {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-.option.selected {
-    background-color: #f0ad4e;
-    color: white;
-}
-
-.code-block {
-    background-color: #f8f9fa;
-    border: 1px solid #ced4da;
+.wrong-question {
+    margin-top: 15px;
     padding: 10px;
-    margin-top: 10px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+    border: 1px solid #dc3545;
+    background-color: #f8d7da;
+    border-radius: 5px;
+}
+
+.wrong-question p {
+    margin: 5px 0;
+}
+
+.wrong-question strong {
+    color: #721c24;
 }
 
 #progress-bar-container {
@@ -121,4 +151,22 @@ button {
     background-color: #007BFF;
     border-radius: 5px;
     width: 0%;
+}
+#progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 20px 0;
+    position: relative;
+}
+
+#progress-bar {
+    height: 20px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    width: 0%;
+    color: rgb(12, 96, 222);
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
 }
