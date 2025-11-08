@@ -1,206 +1,463 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
     color: #333;
+    direction: rtl;
 }
 
+/* ====== Navbar ====== */
+.navbar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.navbar .brand {
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+
+.navbar .nav-links a:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ====== Main Container ====== */
 #app {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
     background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ====== Headings ====== */
 h2 {
-    margin-bottom: 15px;
+    color: #667eea;
+    margin-bottom: 25px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
 }
 
-#lecture-list ul {
+h3 {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* ====== Lecture List ====== */
+#lecture-list ul, #test-list {
     list-style: none;
     padding: 0;
+    display: grid;
+    gap: 15px;
 }
 
 #lecture-list li {
-    padding: 10px;
-    margin: 5px 0;
-    background: #007BFF;
+    padding: 18px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    border-radius: 3px;
+    border-radius: 12px;
     cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
 }
 
 #lecture-list li:hover {
-    background: #0056b3;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
 }
 
+/* ====== Test Selection ====== */
 #test-selection {
     text-align: center;
-    margin: 20px auto;
-}
-
-#test-list {
-    list-style: none;
-    padding: 0;
+    padding: 20px;
 }
 
 #test-list li {
     margin: 15px 0;
 }
 
-#test-list button {
-    padding: 10px 20px;
-    background-color: #007BFF;
+#test-list button, #test-button-container button {
+    padding: 15px 35px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    width: 100%;
+    max-width: 300px;
 }
 
-#test-list button:hover {
-    background-color: #0056b3;
+#test-list button:hover, #test-button-container button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
 }
 
-#test-app, #results-container {
-    margin-top: 20px;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#quiz-container {
+/* ====== Question Container ====== */
+#question-container {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 15px;
     margin: 20px 0;
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+.code-block {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    margin: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    direction: ltr;
+    text-align: left;
+}
+
+/* ====== Options ====== */
 .option {
-    padding: 10px;
-    margin: 5px 0;
-    background: #eee;
-    border-radius: 3px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
     cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
 }
 
 .option:hover {
-    background: #ddd;
+    border-color: #667eea;
+    background: #f8f9ff;
+    transform: translateX(-5px);
 }
 
 .option.selected {
-    background-color: #f0ad4e;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
     color: white;
+    border-color: #f5576c;
+    font-weight: 600;
 }
 
-.correct {
-    background: #28a745 !important;
-    color: white;
+.option.correct {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%) !important;
+    color: white !important;
+    border-color: #38ef7d !important;
+    animation: correctAnswer 0.5s ease;
 }
 
-.incorrect {
-    background: #dc3545 !important;
+.option.incorrect {
+    background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%) !important;
+    color: white !important;
+    border-color: #f45c43 !important;
+    animation: shake 0.5s ease;
+}
+
+@keyframes correctAnswer {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
+}
+
+.option.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* ====== Buttons ====== */
+button {
+    padding: 12px 30px;
+    border: none;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    margin: 5px;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
 }
 
 #controls {
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
 }
 
-button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #007BFF;
+/* ====== Progress Bar ====== */
+#progress-bar-container {
+    width: 100%;
+    height: 30px;
+    background: #e0e0e0;
+    border-radius: 15px;
+    margin: 25px 0;
+    overflow: hidden;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    width: 0%;
+    transition: width 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    border-radius: 5px;
-    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-button:hover {
-    background-color: #0056b3;
+/* ====== Question Navigation Input ====== */
+#question-number-input {
+    padding: 12px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px 5px;
+    transition: all 0.3s ease;
+    width: 200px;
+}
+
+#question-number-input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 10px rgba(102, 126, 234, 0.2);
+}
+
+#go-to-question {
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* ====== Results Section ====== */
+#results-section {
+    animation: fadeIn 0.5s ease;
+}
+
+#results-container {
+    margin-top: 25px;
 }
 
 .wrong-question {
-    margin-top: 15px;
-    padding: 10px;
-    border: 1px solid #dc3545;
-    background-color: #f8d7da;
-    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffefef 0%, #ffe5e5 100%);
+    border-right: 5px solid #f45c43;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(244, 92, 67, 0.2);
 }
 
 .wrong-question p {
-    margin: 5px 0;
+    margin: 10px 0;
+    line-height: 1.6;
 }
 
 .wrong-question strong {
-    color: #721c24;
+    color: #c53030;
 }
 
-#progress-bar-container {
-    width: 100%;
-    background-color: #e0e0e0;
-    border-radius: 5px;
+/* ====== Social Buttons ====== */
+#whatsapp-group, #linkedin-profile, #test-button-container {
     margin: 20px 0;
-}
-
-#progress-bar {
-    height: 20px;
-    background-color: #007BFF;
-    border-radius: 5px;
-    width: 0%;
-}
-#progress-bar-container {
-    width: 100%;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    margin: 20px 0;
-    position: relative;
-}
-
-#progress-bar {
-    height: 20px;
-    background-color: #007BFF;
-    border-radius: 5px;
-    width: 0%;
-    color: rgb(12, 96, 222);
     text-align: center;
-    line-height: 20px;
-    font-size: 14px;
 }
 
-/* ====== Navbar ====== */
-.navbar {
-    background-color: #0d6efd;
-    color: #fff;
-    padding: 12px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+#whatsapp-group button {
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    padding: 15px 35px;
+    font-size: 16px;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
 }
 
-.navbar .brand {
-    font-weight: bold;
+#whatsapp-group button:hover {
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+}
+
+#linkedin-profile button {
+    background: linear-gradient(135deg, #0077B5 0%, #005582 100%);
+    padding: 15px 35px;
+    font-size: 16px;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(0, 119, 181, 0.3);
+}
+
+#linkedin-profile button:hover {
+    box-shadow: 0 8px 25px rgba(0, 119, 181, 0.5);
+}
+
+/* ====== Question Number Display ====== */
+#question-number {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #667eea;
+    font-weight: 600;
+}
+
+/* ====== Score Display ====== */
+#score, #wrong-answers, #time-taken {
+    padding: 15px;
+    margin: 10px 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 10px;
     font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #667eea;
 }
 
-.navbar .nav-links {
-    display: flex;
-    gap: 10px;
+/* ====== Responsive Design ====== */
+@media (max-width: 768px) {
+    #app {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .navbar .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .navigation-buttons {
+        flex-direction: column;
+    }
+
+    #question-number-input {
+        width: 100%;
+    }
 }
 
-.navbar .nav-links a {
-    color: #fff;
+/* ====== Loading Animation ====== */
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ====== Link Styling ====== */
+a {
+    color: #667eea;
     text-decoration: none;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 10px 0;
 }
 
-.navbar .nav-links a:hover {
-    background: rgba(255, 255, 255, 0.25);
+a:hover {
+    color: #764ba2;
+    transform: translateX(-5px);
 }
